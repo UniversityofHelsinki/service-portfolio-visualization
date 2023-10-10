@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
-  base:"https://universityofhelsinki.github.io/service-portfolio-visualization/dist/",
+  base:"https://universityofhelsinki.github.io/service-portfolio-visualization/",
   plugins: [solidPlugin()],
   server: {
     port: 3000,
